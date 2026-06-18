@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentMet - Solusi Instan Pinjam Almet ITPLN</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        itpln: {
+                            dark: '#0B2545',
+                            blue: '#134074',
+                            light: '#8DA9C4',
+                            accent: '#EEB902',
+                            orange: '#F4A261'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans antialiased bg-slate-50 text-slate-800">
+
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100 shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-10 bg-gradient-to-tr from-itpln-blue to-itpln-dark rounded-xl flex items-center justify-center shadow-md shadow-itpln-blue/20">
+                    <span class="text-white font-extrabold text-xl tracking-tight">R</span>
+                </div>
+                <span class="text-2xl font-extrabold tracking-tight bg-gradient-to-r from-itpln-dark to-itpln-blue bg-clip-text text-transparent">RentMet<span class="text-itpln-accent">.</span></span>
+            </div>
+            <div class="hidden md:flex items-center gap-8 font-semibold text-slate-600">
+                <a href="#problem" class="hover:text-itpln-blue transition-colors">Masalah</a>
+                <a href="#solution" class="hover:text-itpln-blue transition-colors">Keunggulan</a>
+                <a href="#how-it-works" class="hover:text-itpln-blue transition-colors">Cara Kerja</a>
+                <a href="#testimonials" class="hover:text-itpln-blue transition-colors">Testimoni</a>
+            </div>
+            <div>
+                <span class="px-4 py-2 rounded-full bg-itpln-blue/10 text-itpln-blue font-bold text-sm tracking-wide border border-itpln-blue/20">
+                    <i class="fa-solid fa-graduation-cap mr-1"></i> Khusus ITPLN
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="relative pt-32 pb-24 md:pt-44 md:pb-36 bg-gradient-to-b from-blue-50 via-white to-slate-50 overflow-hidden px-6">
+        <div class="absolute top-20 right-[-10%] w-96 h-96 bg-itpln-light/20 rounded-full blur-3xl -z-10"></div>
+        <div class="absolute bottom-10 left-[-5%] w-80 h-80 bg-itpln-accent/10 rounded-full blur-3xl -z-10"></div>
+
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-12 items-center">
+            <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-orange-50 border border-orange-200 text-orange-600 font-bold text-xs tracking-wide uppercase mx-auto lg:mx-0">
+                    <span class="flex h-2 w-2 relative">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-orange-500"></span>
+                    </span>
+                    Solusi Penyelamat Praktikum
+                </div>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-itpln-dark leading-[1.15] tracking-tight">
+                    Mau Masuk Lab Tapi Lupa Bawa Almet? <br class="hidden sm:inline">
+                    <span class="bg-gradient-to-r from-itpln-blue to-blue-600 bg-clip-text text-transparent">Tenang, RentMet Aja!</span>
+                </h1>
+                <p class="text-lg text-slate-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                    Platform pinjam-meminjam jas almamater instan pertama khusus mahasiswa ITPLN. Hemat waktu, bebas sanksi lab, dan siap pakai dalam hitungan menit langsung di area kampus.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 pt-4 justify-center lg:justify-start">
+                    <button class="group bg-gradient-to-r from-itpln-accent to-amber-500 hover:from-amber-500 hover:to-itpln-accent text-itpln-dark font-extrabold py-4 px-8 rounded-2xl shadow-lg shadow-amber-500/20 transition-all duration-300 transform hover:-translate-y-1 flex justify-center items-center gap-3 text-base">
+                        <span>⚡</span> Pinjam Almet Sekarang
+                        <i class="fa-solid fa-arrow-right transition-transform group-hover:translate-x-1"></i>
+                    </button>
+                    <button class="bg-white hover:bg-slate-50 border-2 border-slate-200 hover:border-slate-300 text-slate-700 font-bold py-4 px-8 rounded-2xl shadow-sm transition-all duration-300 transform hover:-translate-y-1 flex justify-center items-center gap-2 text-base">
+                        <span>💰</span> Sewakan Almetmu & Raih Cuan
+                    </button>
+                </div>
+            </div>
+            
+            <div class="lg:col-span-5 relative">
+                <div class="absolute inset-0 bg-gradient-to-tr from-itpln-blue/10 to-transparent rounded-3xl -rotate-3 transform scale-105 -z-10"></div>
+                <div class="relative bg-white p-4 rounded-3xl shadow-2xl border border-slate-100 overflow-hidden group">
+                    <div class="aspect-[4/5] rounded-2xl overflow-hidden bg-slate-100 relative">
+                        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=1000" alt="Mahasiswa ITPLN" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        <div class="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-md p-4 rounded-xl border border-white/20 shadow-lg flex items-center justify-between">
+                            <div>
+                                <p class="text-xs text-slate-500 font-semibold uppercase tracking-wider">Lokasi Utama</p>
+                                <p class="text-sm font-bold text-itpln-dark">Menara PLN, Lantai Lobby</p>
+                            </div>
+                            <div class="w-8 h-8 bg-itpln-blue rounded-full flex items-center justify-center text-white text-xs shadow-md">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="problem" class="py-24 px-6 bg-white border-y border-slate-100">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <h2 class="text-xs font-bold text-red-500 tracking-widest uppercase"><i class="fa-solid fa-circle-exclamation mr-1"></i> Validasi Lapangan</h2>
+                <p class="text-3xl md:text-4xl font-extrabold text-itpln-dark tracking-tight">Pernah Mengalami Momen Panik Ini?</p>
+                <div class="w-16 h-1 bg-red-500 mx-auto rounded-full"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gradient-to-b from-red-50/50 to-white p-8 rounded-2xl border border-red-100/70 shadow-sm hover:shadow-md transition-shadow duration-300 relative group overflow-hidden">
+                    <div class="absolute top-0 left-0 right-0 h-1 bg-red-400 group-hover:h-1.5 transition-all"></div>
+                    <div class="w-14 h-14 bg-red-100 rounded-xl flex items-center justify-center text-2xl mb-6 text-red-600 shadow-inner">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Praktikum 15 Menit Lagi</h3>
+                    <p class="text-slate-600 leading-relaxed">Baru sadar almet tertinggal di kosan, padahal asisten laboratorium terkenal galak dan tegas soal atribut resmi.</p>
+                </div>
+                <div class="bg-gradient-to-b from-red-50/50 to-white p-8 rounded-2xl border border-red-100/70 shadow-sm hover:shadow-md transition-shadow duration-300 relative group overflow-hidden">
+                    <div class="absolute top-0 left-0 right-0 h-1 bg-red-400 group-hover:h-1.5 transition-all"></div>
+                    <div class="w-14 h-14 bg-red-100 rounded-xl flex items-center justify-center text-2xl mb-6 text-red-600 shadow-inner">
+                        <i class="fa-solid fa-wallet"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Mau Beli Baru Tapi Mahal</h3>
+                    <p class="text-slate-600 leading-relaxed">Keluar uang ratusan ribu di koperasi kampus hanya untuk dipakai ujian satu jam? Jelas sebuah pemborosan anggaran saku.</p>
+                </div>
+                <div class="bg-gradient-to-b from-red-50/50 to-white p-8 rounded-2xl border border-red-100/70 shadow-sm hover:shadow-md transition-shadow duration-300 relative group overflow-hidden">
+                    <div class="absolute top-0 left-0 right-0 h-1 bg-red-400 group-hover:h-1.5 transition-all"></div>
+                    <div class="w-14 h-14 bg-red-100 rounded-xl flex items-center justify-center text-2xl mb-6 text-red-600 shadow-inner">
+                        <i class="fa-solid fa-user-slash"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Sungkan Pinjam Teman</h3>
+                    <p class="text-slate-600 leading-relaxed">Mau pinjam teman sekelas, tapi mereka semua ternyata juga sedang ada jadwal praktikum paralel atau agenda resmi organisasi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="solution" class="py-24 px-6 bg-gradient-to-br from-itpln-dark to-itpln-blue text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(19,64,116,0.4),transparent)]"></div>
+        
+        <div class="max-w-7xl mx-auto relative z-10">
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-20">
+                <h2 class="text-xs font-bold text-itpln-accent tracking-widest uppercase"><i class="fa-solid fa-shield-halved mr-1"></i> Aplikasi Penyelamat</h2>
+                <p class="text-3xl md:text-4xl font-extrabold text-white tracking-tight">RentMet: Penyelamat Nilai & Dompet Mahasiswa ITPLN</p>
+                <p class="text-base text-slate-300 leading-relaxed mt-4">
+                    RentMet adalah platform <i>peer-to-peer sharing</i> yang menghubungkan mahasiswa yang butuh almet mendadak dengan mahasiswa yang almetnya sedang menganggur aman di kosan.
+                </p>
+            </div>
+            
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10 hover:bg-white/10 transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-itpln-accent rounded-xl flex items-center justify-center text-xl text-itpln-dark font-bold mb-5 shadow-lg shadow-itpln-accent/20">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h4 class="font-bold text-lg mb-2 text-white">Super Cepat (Instant COD)</h4>
+                    <p class="text-slate-300 text-sm leading-relaxed">Serah terima almet dilakukan langsung di titik strategis kampus (Lobby Menara PLN, Kantin, atau Depan Gedung Lab).</p>
+                </div>
+                <div class="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10 hover:bg-white/10 transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-itpln-accent rounded-xl flex items-center justify-center text-xl text-itpln-dark font-bold mb-5 shadow-lg shadow-itpln-accent/20">
+                        <i class="fa-solid fa-tags"></i>
+                    </div>
+                    <h4 class="font-bold text-lg mb-2 text-white">Tarif Kantong Mahasiswa</h4>
+                    <p class="text-slate-300 text-sm leading-relaxed">Sewa fleksibel per jam atau per hari dengan harga transparan yang jauh lebih murah daripada bayar denda poin praktikum.</p>
+                </div>
+                <div class="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10 hover:bg-white/10 transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-itpln-accent rounded-xl flex items-center justify-center text-xl text-itpln-dark font-bold mb-5 shadow-lg shadow-itpln-accent/20">
+                        <i class="fa-solid fa-soap"></i>
+                    </div>
+                    <h4 class="font-bold text-lg mb-2 text-white">Bersih, Wangi & Siap Pakai</h4>
+                    <p class="text-slate-300 text-sm leading-relaxed">Semua almet yang terdaftar wajib melewati kontrol higienitas ketat agar Anda tetap tampil wangi dan percaya diri saat responsi.</p>
+                </div>
+                <div class="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10 hover:bg-white/10 transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-itpln-accent rounded-xl flex items-center justify-center text-xl text-itpln-dark font-bold mb-5 shadow-lg shadow-itpln-accent/20">
+                        <i class="fa-solid fa-user-shield"></i>
+                    </div>
+                    <h4 class="font-bold text-lg mb-2 text-white">Aman & Terpercaya</h4>
+                    <p class="text-slate-300 text-sm leading-relaxed">Keamanan transaksi internal terjamin penuh karena diwajibkan melakukan verifikasi identitas NIM resmi aktif ITPLN.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="py-24 px-6 bg-slate-50">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-20">
+                <h2 class="text-xs font-bold text-itpln-blue tracking-widest uppercase"><i class="fa-solid fa-map-signs mr-1"></i> Alur Pemakaian</h2>
+                <p class="text-3xl md:text-4xl font-extrabold text-itpln-dark tracking-tight">Cuma 3 Langkah Mudah, Langsung Masuk Kelas</p>
+                <div class="w-16 h-1 bg-itpln-blue mx-auto rounded-full"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-10 relative">
+                <div class="hidden md:block absolute top-10 left-[15%] right-[15%] h-0.5 bg-slate-200 -z-0"></div>
+                
+                <div class="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm text-center relative z-10 transition-all duration-300 hover:shadow-md">
+                    <div class="w-16 h-16 bg-itpln-blue text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6 border-4 border-white shadow-lg ring-4 ring-itpln-blue/10">1</div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Cari & Pilih</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Buka katalog platform RentMet melalui gawai, tentukan ukuran ideal Anda (S, M, L, XL) serta durasi sewa yang diinginkan.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm text-center relative z-10 transition-all duration-300 hover:shadow-md">
+                    <div class="w-16 h-16 bg-itpln-blue text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6 border-4 border-white shadow-lg ring-4 ring-itpln-blue/10">2</div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">COD di Kampus</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Hubungi otomatis pemilik almet via sistem, lalu janjian bertemu langsung di lokasi terdekat (seperti Lobby Utama Menara PLN).</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm text-center relative z-10 transition-all duration-300 hover:shadow-md">
+                    <div class="w-16 h-16 bg-itpln-blue text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6 border-4 border-white shadow-lg ring-4 ring-itpln-blue/10">3</div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Kembalikan & Selesai</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Selesai urusan praktikum laboratorium atau agenda seremonial? Kembalikan almet secara utuh lalu berikan ulasan rating terbaik Anda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-24 px-6 bg-white border-b border-slate-100">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <h2 class="text-xs font-bold text-itpln-blue tracking-widest uppercase"><i class="fa-solid fa-comments mr-1"></i> Kisah Nyata</h2>
+                <p class="text-3xl md:text-4xl font-extrabold text-itpln-dark tracking-tight">Kata Mereka yang Terbantu oleh RentMet</p>
+                <div class="w-16 h-1 bg-itpln-blue mx-auto rounded-full"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="bg-slate-50/50 p-8 rounded-2xl border border-slate-100 text-left relative flex flex-col justify-between group hover:bg-slate-50 transition-colors">
+                    <div>
+                        <div class="flex text-amber-400 gap-1 mb-4">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-700 italic leading-relaxed mb-6 relative z-10">
+                            "Penyelamat banget waktu responsi Lab Mesin minggu lalu! Almet ketinggalan di kosan daerah Duri Kosambi, untung ada RentMet langsung dapet pinjaman di lobby dalam 10 menit."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 border-t border-slate-200/60 pt-4">
+                        <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=150" alt="Rian" class="w-12 h-12 rounded-full object-cover border border-slate-200">
+                        <div>
+                            <h5 class="font-bold text-slate-900">Rian</h5>
+                            <p class="text-xs text-slate-500 font-medium">Teknik Elektro 2024</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-slate-50/50 p-8 rounded-2xl border border-slate-100 text-left relative flex flex-col justify-between group hover:bg-slate-50 transition-colors">
+                    <div>
+                        <div class="flex text-amber-400 gap-1 mb-4">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-700 italic leading-relaxed mb-6 relative z-10">
+                            "Daripada almet saya cuma digantung di lemari, mending saya sewakan lewat RentMet. Lumayan banget buat nambah uang jajan dan bayar wifi kosan."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 border-t border-slate-200/60 pt-4">
+                        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=150" alt="Siti" class="w-12 h-12 rounded-full object-cover border border-slate-200">
+                        <div>
+                            <h5 class="font-bold text-slate-900">Siti</h5>
+                            <p class="text-xs text-slate-500 font-medium">Teknik Informatika 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="py-24 px-6 bg-gradient-to-br from-itpln-blue via-itpln-dark to-slate-950 text-center text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(238,185,2,0.15),transparent)]"></div>
+        
+        <div class="max-w-4xl mx-auto relative z-10 space-y-8">
+            <h2 class="text-3xl md:text-5xl font-extrabold tracking-tight leading-tight">
+                Jangan Sampai Gagal Masuk Lab <br>Hanya Karena Masalah Almet!
+            </h2>
+            <p class="text-lg text-slate-300 max-w-2xl mx-auto font-medium">
+                Bergabunglah dengan ratusan mahasiswa ITPLN lainnya. Pinjam cepat atau sewakan almetmu sekarang juga.
+            </p>
+            <div class="pt-4">
+                <button class="group bg-gradient-to-r from-itpln-accent to-amber-500 hover:from-amber-500 hover:to-itpln-accent text-itpln-dark font-extrabold text-lg py-4 px-10 rounded-2xl shadow-xl shadow-amber-500/10 transition-all duration-300 transform hover:-translate-y-1 inline-flex items-center gap-3">
+                    <span>🚀</span> Mulai Gunakan RentMet
+                    <i class="fa-solid fa-chevron-right text-sm transition-transform group-hover:translate-x-1"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 text-slate-500 py-12 text-center px-6 border-t border-slate-900">
+        <div class="max-w-6xl mx-auto space-y-4">
+            <div class="flex items-center justify-center gap-2 text-slate-400 font-bold text-lg">
+                <div class="w-6 h-6 bg-itpln-blue rounded flex items-center justify-center text-white text-xs">R</div>
+                <span>RentMet</span>
+            </div>
+            <p class="text-sm text-slate-400">© 2026 RentMet ITPLN. Dibuat oleh Mahasiswa untuk Mahasiswa.</p>
+            <p class="text-xs text-slate-600 max-w-3xl mx-auto leading-relaxed pt-2 border-t border-slate-900">
+                <strong>Disclaimer:</strong> Platform ini adalah inisiatif independen mahasiswa dan tidak terafiliasi secara struktural dengan birokrasi resmi institusi Institut Teknologi PLN (ITPLN).
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
